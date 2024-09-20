@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rumyana Valdobreva Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fontawesome.com">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><span>R</span>umyana <span>V</span>aldobreva</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About me</a>
+            <a href="#certificates">Certificates</a>
+        </nav>
+
+        <a href="#contact" class="contact">Contact me</a>
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+            <h1>Hi, It&apos;s <span>Rumyana</span></h1>
+            <h3>I&apos;m a <span>Junior</span> Python Developer</h3>
+
+            <p>Passionate and enthusiastic person focused on the field of programming.
+                I&apos;m a team player and fast learner with a desire to constantly develop and apply my knowledge.
+            </p>
+            
+            <div class="socials-home">
+                <a href="https://github.com/RumyanaValdobreva"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/rumyana-valdobreva-a86b84294/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/rumyana.iw/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+    
+            <div class="btn-box">
+                <a href="#contact" class="btn-contact">Contact me</a>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="IMG_0390.JPG" alt="">
+        </div>
+    </section>
+    
+    <section id="about" class="about">
+        <div class="about-img">
+            <img src="IMG_4338.JPEG" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">
+                About <span>Me</span>
+            </h2>
+
+            <h3>Junior <span>Python Developer</span></h3>
+            <p>Almost two years ago I wrote my first "Hello Word!" - a simple phrase known to every developer. 
+                What started as a curiosity quickly turned into a passion as each line of code fueled my desire to learn more and more. 
+                Today, that passion has transformed into my dream work, where I continue to grow, solve problems, and push the boundaries of what I can create. 
+                The excitement I felt in those early days has not faded, it only grows stronger with each new thing I learn.</p>
+
+            <div class="tech-stack">
+                <h2>My <span>Tech</span> Stack:</h2>
+                <div class="tech-icons">
+                    <a href="https://www.python.org/" target="_blank">
+                        <img src="https://simpleicons.org/icons/python.svg" alt="Python" />
+                    </a>
+                    <a href="https://www.javascript.com/" target="_blank">
+                        <img src="https://simpleicons.org/icons/javascript.svg" alt="JavaScript" />
+                    </a>
+                    <a href="https://html.spec.whatwg.org/" target="_blank">
+                        <img src="https://simpleicons.org/icons/html5.svg" alt="HTML" />
+                    </a>
+                    <a href="https://www.w3.org/Style/CSS/" target="_blank">
+                        <img src="https://simpleicons.org/icons/css3.svg" alt="CSS" />
+                    </a>
+                    <a href="https://www.postgresql.org/" target="_blank">
+                        <img src="https://simpleicons.org/icons/postgresql.svg" alt="PostgreSQL" />
+                    </a>
+                    <a href="https://www.djangoproject.com/" target="_blank">
+                        <img src="https://simpleicons.org/icons/django.svg" alt="Django" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates" class="certificates">
+        <h2 class="certificates-heading"><span>C</span>ertificates</h2>
+        <div class="certificates-grid">
+            <img src="basics.jpg" alt="">
+            <img src="fundamentals.jpg" alt="">
+            <img src="advanced.jpg" alt="">
+            <img src="oop.jpg" alt="">
+            <img src="html_css.jpg" alt="">
+            <img src="js.jpg" alt="">
+            <img src="postgresql.jpg" alt="">
+            <img src="orm.jpg" alt="">
+        </div>
+    </section>    
+
+    <section id="contact" class="contact-form">
+        <h2 class="contact-me">Contact <span>Me</span></h2>
+    
+        <form id="contactForm" action="https://formspree.io/f/xzzpldeb" method="POST">
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+            </div>
+    
+            <div class="input-box">
+                <input type="text" name="subject" placeholder="Subject" required>
+            </div>
+    
+            <textarea name="message" cols="30" rows="10" placeholder="Your Message..." required></textarea>
+            <input type="submit" value="Send Message" class="btn-1">
+        </form>
+    
+        <div id="confirmationMessage" style="display: none;">
+            <p>Thank you! Your message has been received.</p>
+        </div>
+    </section>
+    
+
+    <footer class="footer">
+        <p class="copyright">&copy; 2024 Rumyana Valdobreva | All Rights Reserved</p>
+    </footer>
+
+    <button id="backToTop" class="back-to-top">↑</button>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
